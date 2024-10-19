@@ -86,3 +86,8 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+
+imports:
+  # Add the Decap CMS module below, if it has not already been added:
+  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms
+  # Other imports here...
